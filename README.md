@@ -35,7 +35,8 @@ For the first step, we still needed to get some tranlation pairs, but not as muc
 
 The pipeline of one epoch is shown on the picture below.
 
-![Pipeline](./pipeline.png)
+<!-- ![Pipeline](./pipeline.png) -->
+<img width="609" alt="pipeline" src="https://github.com/user-attachments/assets/b1ab65a1-7c52-4cb7-808c-1194ad71a6ed">
 
 <!-- ### What are the Advantages? -->
 
@@ -59,4 +60,3 @@ A novel approach for multilingual model training was proposed. The main advantag
 - Used advantages of pretrained English model, but didn't need to translate the text on the inference stage $\implies$ better performance.
 - We didn't have to translate all the training data, only the most frequent words/combinations $\implies$ better performance.
 - Result: Good performance / quality trade-off.
-<img width="609" alt="pipeline" src="https://github.com/user-attachments/assets/b1ab65a1-7c52-4cb7-808c-1194ad71a6ed">
