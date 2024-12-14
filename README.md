@@ -43,11 +43,11 @@ Step 1) is in purple, step 2) is in yellow, step 3) is in blue.
 
 ## Performance Comparison (Accuracy %)
 
+<!-- | Sentiment Baseline          | 85.1 | 62.9 | 51.2 | 61.6 | DistilBERT  | -->
+<!-- | Head Training               | 87.8 | 77.0 | 75.0 | 79.5 | DistilBERT  | -->
 | Approach                       | En       | Fr       | De       | Es       | Inference Time (s)  | Model       |
 |--------------------------------|----------|----------|----------|----------|---------------------|-------------|
-<!-- | Sentiment Baseline          | 85.1 | 62.9 | 51.2 | 61.6 | DistilBERT  | -->
-| Zero-shot Baseline             | 89.6     | 80.9     | 80.6     | 86.9     |                     | Bart-large  |
-<!-- | Head Training               | 87.8 | 77.0 | 75.0 | 79.5 | DistilBERT  | -->
+| Zero-shot Baseline             | 89.6     | 80.9     | 80.6     | 86.9     | -                   | Bart-large  |
 | 1) Translation + Head Training | -        | **87.8** | **86.6** | **87.4** | 1800                | DistilBERT  |
 | 2) Training the Full Model     | **90.1** | 81.3     | 77.5     | 79.9     | **22**              | DistilBERT  |
 | 3) Our Approach                | -        | **87.6** | **86.4** | **87.7** | **22**              | DistilBERT  |
